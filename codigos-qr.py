@@ -4,7 +4,7 @@ texto = input("Que quieres poner en el QR?")
 
 data = texto
 
-qr = qrcode.QRCode(version = 1, box_size=10, border = 5)
+qr = qrcode.QRCode(version = 1, box_size=100, border = 5)
 
 qr.add_data(data)
 qr.make(fit=True)
