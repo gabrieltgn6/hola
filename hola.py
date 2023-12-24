@@ -1,6 +1,8 @@
 import qrcode
 
-data = "Bienvenido"
+texto = input("Que quieres poner en el QR?")
+
+data = texto
 
 qr = qrcode.QRCode(version = 1, box_size=10, border = 5)
 
